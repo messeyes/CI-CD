@@ -1,0 +1,30 @@
+
+# dependencies
+node_modules/
+
+# build
+dist/
+
+# test
+coverage/
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+
+# temporary files
+tmp/
+temp/
